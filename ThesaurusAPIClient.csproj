@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.Thesaurus</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/thesaurus</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Thesaurus is a simple tool for getting word synonyms. It returns a list of synonyms.</Description>
+    <RepositoryUrl>https://github.com/apiverve/thesaurus-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>thesaurus; thesaurus api; thesaurus tool; thesaurus software; thesaurus service; thesaurus library; thesaurus sdk; thesaurus code; thesaurus script; thesaurus program; thesaurus application; thesaurus app; thesaurus utility; thesaurus helper; thesaurus helper tool; thesaurus helper software; thesaurus helper service; thesaurus helper library; thesaurus helper sdk; thesaurus helper code; thesaurus helper script; thesaurus helper program; thesaurus helper application; thesaurus helper app; thesaurus helper tool; thesaurus helper utility; thesaurus helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
