@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new thesaurusQueryOptions {
+var queryOptions = new ThesaurusQueryOptions {
   word = "big"
 };
 ```
@@ -148,7 +148,8 @@ if(response.error != null) {
       "thumping",
       "whopping"
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
